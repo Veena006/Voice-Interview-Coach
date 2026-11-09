@@ -627,6 +627,8 @@ app = gr.mount_gradio_app(
 # Local development
 if __name__ == "__main__":
     demo.launch(
-        theme=gr.themes.Base(primary_hue="green", neutral_hue="slate"),
-        css=CUSTOM_CSS,
-    )
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 7860)),
+    theme=gr.themes.Base(primary_hue="green", neutral_hue="slate"),
+    css=CUSTOM_CSS,
+)
