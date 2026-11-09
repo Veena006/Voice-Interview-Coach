@@ -273,19 +273,26 @@ button[role="tab"][aria-selected="true"] { color: var(--accent) !important; bord
     #sidebar { position: static; }
 }
 
-/* Neon green primary buttons */
-.gradio-container button.primary {
+/* Force neon green primary buttons */
+.gradio-container button.primary,
+.gradio-container .gr-button-primary,
+.gradio-container button[variant="primary"] {
     background: #39FF14 !important;
+    background-color: #39FF14 !important;
     border-color: #39FF14 !important;
     color: #080B0A !important;
+    opacity: 1 !important;
 }
 
-.gradio-container button.primary:hover {
+/* Button hover */
+.gradio-container button.primary:hover,
+.gradio-container .gr-button-primary:hover {
     background: #32E600 !important;
+    background-color: #32E600 !important;
     border-color: #32E600 !important;
 }
 
-/* Neon green active tabs */
+/* Active tabs */
 .tab-nav button.selected,
 .tab-nav button[aria-selected="true"] {
     color: #39FF14 !important;
