@@ -264,4 +264,31 @@ button[role="tab"][aria-selected="true"] { color: var(--accent) !important; bord
     .gradio-container { padding: 10px !important; }
     #sidebar { position: static; }
 }
+
+.shape { translate: none !important; }
+}
+
+@media (max-width: 800px) {
+    .gradio-container { padding: 10px !important; }
+    #sidebar { position: static; }
+}
+
+/* Neon green primary buttons */
+.gradio-container button.primary {
+    background: #39FF14 !important;
+    border-color: #39FF14 !important;
+    color: #080B0A !important;
+}
+
+.gradio-container button.primary:hover {
+    background: #32E600 !important;
+    border-color: #32E600 !important;
+}
+
+/* Neon green active tabs */
+.tab-nav button.selected,
+.tab-nav button[aria-selected="true"] {
+    color: #39FF14 !important;
+    border-bottom-color: #39FF14 !important;
+}
 """
