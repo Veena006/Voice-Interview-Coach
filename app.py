@@ -22,6 +22,8 @@ import candidate_profile as profile
 import prompts
 import services
 import views
+import os
+
 from styles import CUSTOM_CSS
 from fastapi import FastAPI
 
