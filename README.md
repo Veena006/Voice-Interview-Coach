@@ -3,10 +3,10 @@
 
 **Practise job and internship interviews out loud, in English, Hinglish and Kannada, and get instant spoken feedback.**
 
-![Python]()
-![Gradio]()
-![Speech]()
-![Tests]()
+![Python]
+![Gradio]
+![Speech]
+![Tests]
 
 Built for the **Great Indian AI Internship Challenge** by Gnani AI.
 `#GnaniAI` `#GreatIndianAIInternshipChallenge`
@@ -144,7 +144,7 @@ This tests the language model and text-to-speech in all three languages. Add a r
 ```bash
 python app.py
 ```
-Open **http://127.0.0.1:7860** in your browser. Use this exact address, because browsers only allow microphone access on it.
+Open **https://voice-interview-coach-vkho.onrender.com/** in your browser. Use this exact address, because browsers only allow microphone access on it.
 
 ### Run the tests
 ```bash
