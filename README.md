@@ -1,3 +1,4 @@
+<img width="1440" height="655" alt="ss1" src="https://github.com/user-attachments/assets/54a789c0-01d7-4223-862a-f4d95e93a207" />
 # 🎤 Voice Interview Coach
 
 **Practise job and internship interviews out loud, in English, Hinglish and Kannada, and get instant spoken feedback.**
