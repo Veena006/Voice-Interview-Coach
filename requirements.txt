@@ -2,3 +2,4 @@ gradio>=4.44
 requests
 openai>=1.0
 python-dotenv
+pypdf
