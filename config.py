@@ -9,8 +9,8 @@ load_dotenv()
 GNANI_API_KEY = os.getenv("GNANI_API_KEY", "")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "")
-LLM_MODEL = os.getenv("LLM_MODEL", "")cd C:\Users\HP\Downloads\files
-git status
+LLM_MODEL = os.getenv("LLM_MODEL", "")
+
 
 # Optional: "low" makes reasoning models such as gpt-oss answer much faster.
 # Leave it empty in .env if your LLM does not support it.

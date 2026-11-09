@@ -23,6 +23,7 @@ import prompts
 import services
 import views
 from styles import CUSTOM_CSS
+from fastapi import FastAPI
 
 ROLES = [
     "Software Engineering Intern", "Python Developer Intern", "Web Development Intern",
@@ -609,6 +610,14 @@ with gr.Blocks(title="Voice Interview Coach") as demo:
     demo.load(None, None, [theme_radio], js=LOAD_JS)
 
 
+# Vercel deployment
+app = gr.mount_gradio_app(
+    FastAPI(),
+    demo,
+    path="/"
+)
+
+# Local development
 if __name__ == "__main__":
     demo.launch(
         theme=gr.themes.Base(primary_hue="green", neutral_hue="slate"),
