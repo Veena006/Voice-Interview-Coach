@@ -2,10 +2,10 @@
 
 **Practise job and internship interviews out loud, in English, Hinglish and Kannada, and get instant spoken feedback.**
 
-![Python](https://kommodo.ai/i/CkcebqMjQwISaCzQA4El)
-![Gradio](https://kommodo.ai/i/EyZFElsQeiDcKSSSo2be)
-![Speech](https://kommodo.ai/i/zJPadv40G5M2QW5D3jYv)
-![Tests](https://kommodo.ai/i/S2RXDGrw6iFQX66aS0Cj)
+![Python]()
+![Gradio]()
+![Speech]()
+![Tests]()
 
 Built for the **Great Indian AI Internship Challenge** by Gnani AI.
 `#GnaniAI` `#GreatIndianAIInternshipChallenge`
@@ -24,7 +24,7 @@ Gnani's speech models are made for Indian languages, so they were a natural fit.
 
 | Dashboard | Interview | Performance |
 |---|---|---|
-| ![Dashboard](docs/dashboard.png) | ![Interview](docs/interview.png) | ![Performance](docs/performance.png) |
+| ![Dashboard]("C:\Users\HP\Downloads\ss1.png") | ![Interview]("C:\Users\HP\Downloads\ss2.png") | ![Performance]("C:\Users\HP\Downloads\ss4.png") |
 
 ## ✨ Features
 
