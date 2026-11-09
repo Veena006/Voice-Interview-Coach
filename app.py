@@ -409,7 +409,14 @@ BG3D = """<div class="bg3d"><div class="shape s1"></div><div class="shape s2"></
 
 ORB = '<div class="orb3d"><div class="ring"></div><div class="core"></div></div>'
 
-with gr.Blocks(title="Voice Interview Coach") as demo:
+with gr.Blocks(
+    title="Voice Interview Coach",
+    theme=gr.themes.Base(
+        primary_hue="green",
+        neutral_hue="slate"
+    ),
+    css=CUSTOM_CSS
+) as demo:
 
     store = gr.State(None)    # signed-in user, their history and profile
     session = gr.State(None)  # the interview in progress
